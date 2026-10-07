@@ -1,0 +1,42 @@
+﻿rang,anbieter,kategorie,band,antworten_mit_nennung,antworten_gesamt,anteil,standardfehler_pp,nennungen_perplexity,nennungen_openai,nennungen_google,nennungen_claude,nennungen_aio,nennungen_aimode,nennungen_woche_2026-09-13,nennungen_woche_2026-09-14,nennungen_woche_2026-09-21,nennungen_woche_2026-09-28
+1,Claneo,agentur,spitze,310,1077,0.287837,0.7838,87,5,55,42,72,49,83,80,72,75
+2,Aufgesang,agentur,genannt,254,1077,0.23584,0.8697,33,19,51,32,62,57,62,67,57,68
+3,Suchhelden,agentur,genannt,241,1077,0.22377,0.8061,69,6,53,33,51,29,58,67,63,53
+4,DREIKON,agentur,genannt,168,1077,0.155989,0.746,52,6,47,13,28,22,44,43,40,41
+5,geoagentur.de,agentur,genannt,126,1077,0.116992,0.653,38,1,25,29,18,15,29,28,32,37
+6,Hecht ins Gefecht,agentur,genannt,109,1077,0.101207,0.6744,39,7,29,15,14,5,19,23,29,38
+7,Löwenstark,agentur,genannt,91,1077,0.084494,0.529,34,2,7,33,8,7,23,24,23,21
+8,Olaf Kopp,person,genannt,82,1077,0.076137,0.5093,12,0,12,12,25,21,19,22,22,19
+9,Wordsmattr,agentur,genannt,80,1077,0.07428,0.5101,12,0,19,7,13,29,21,19,20,20
+10,SEO-Küche,agentur,genannt,71,1077,0.065924,0.6037,14,12,5,16,4,20,16,16,18,21
+11,Fabian Jaeckert,person,genannt,68,1077,0.063138,0.4016,9,0,14,11,19,15,15,17,20,16
+12,Benjamin O'Daniel,person,genannt,54,1077,0.050139,0.4188,9,0,8,11,16,10,11,12,18,13
+13,Peak Ace,agentur,genannt,51,1077,0.047354,0.3808,9,0,6,1,13,22,11,10,13,17
+14,Evergreen Media,agentur,genannt,50,1077,0.046425,0.5176,18,0,10,2,8,12,18,13,8,11
+15,rankeffect,agentur,genannt,44,1077,0.040854,0.3192,9,13,3,0,9,10,11,12,13,8
+16,Engine Native,agentur,genannt,39,1077,0.036212,0.4218,3,21,11,3,1,0,5,6,14,14
+17,Suchmeisterei,agentur,genannt,38,1077,0.035283,0.4784,10,0,1,0,5,22,10,10,8,10
+18,SUMAX,agentur,genannt,37,1077,0.034355,0.4236,21,0,3,3,7,3,4,4,7,22
+19,Friendventure,agentur,genannt,37,1077,0.034355,0.4698,4,0,1,1,17,14,11,8,12,6
+20,SEOX,agentur,genannt,27,1077,0.02507,0.3725,10,3,8,0,3,3,7,11,5,4
+21,Bavaria AI,agentur,genannt,25,1077,0.023213,0.3725,8,0,1,6,6,4,2,6,11,6
+22,morefire,agentur,genannt,25,1077,0.023213,0.3703,1,7,12,1,0,4,7,6,8,4
+23,Jaeckert + O'Daniel,agentur,genannt,23,1077,0.021356,0.3336,8,0,1,0,7,7,5,5,6,7
+24,omnius,agentur,genannt,22,1077,0.020427,0.3167,13,0,9,0,0,0,7,4,6,5
+25,experics,agentur,genannt,19,1077,0.017642,0.2641,6,0,2,10,0,1,5,4,4,6
+26,Hanns Kronenberg,person,genannt,19,1077,0.017642,0.2976,3,0,2,10,2,2,3,4,5,7
+27,schmidtmedia,agentur,genannt,19,1077,0.017642,0.313,5,0,10,0,3,1,6,5,7,1
+28,findling,agentur,genannt,15,1077,0.013928,0.2488,9,0,6,0,0,0,5,5,4,1
+29,webneo,agentur,genannt,14,1077,0.012999,0.2827,3,0,4,0,7,0,6,4,1,3
+30,Staufenberg Advisory,agentur,genannt,12,1077,0.011142,0,12,0,0,0,0,0,3,3,3,3
+31,eology,agentur,genannt,11,1077,0.010214,0.2488,6,0,4,0,1,0,2,3,1,5
+32,David Konitzny,person,genannt,10,1077,0.009285,0.2734,3,0,2,0,5,0,0,0,2,8
+33,dskom,agentur,genannt,10,1077,0.009285,0.2472,1,6,1,2,0,0,3,3,1,3
+34,SEYBOLD ONE,agentur,genannt,10,1077,0.009285,0.2685,0,5,1,0,0,4,2,4,1,3
+35,Jens Polomski,person,genannt,9,1077,0.008357,0.2551,4,0,4,0,1,0,4,4,0,1
+36,Mik Group,agentur,genannt,8,1077,0.007428,0.2472,2,3,2,0,0,1,2,3,1,2
+37,Alexander Rus,person,genannt,5,1077,0.004643,0.1915,3,0,0,0,2,0,1,0,0,4
+38,LikeMeASAP,agentur,genannt,5,1077,0.004643,0.1656,5,0,0,0,0,0,3,2,0,0
+39,Nordfabrik,agentur,genannt,5,1077,0.004643,0.1656,0,0,5,0,0,0,2,0,2,1
+40,Siri SEO,agentur,genannt,5,1077,0.004643,0.1656,5,0,0,0,0,0,3,2,0,0
+41,SEO-Retter,agentur,genannt,4,1077,0.003714,0.1771,2,0,0,0,2,0,2,0,0,2

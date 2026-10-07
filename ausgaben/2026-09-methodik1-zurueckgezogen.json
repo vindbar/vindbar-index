@@ -1,0 +1,3353 @@
+{
+  "schema": "vindbar-index-ausgabe/1",
+  "ausgabe": "2026-09",
+  "nummer": 1,
+  "monat": "September 2026",
+  "methodikVersion": "1",
+  "fragensatz": "v1",
+  "status": "zurueckgezogen",
+  "stand": "2026-09-12",
+  "festSeit": null,
+  "wochen": [
+    {
+      "datum": "2026-09-12",
+      "datei": "wochen/2026-09-12.json",
+      "zellen": 90,
+      "verwertbar": 90
+    }
+  ],
+  "n": 3,
+  "zellen": 90,
+  "zellenVerwertbar": 90,
+  "engines": [
+    {
+      "key": "perplexity",
+      "model": "perplexity/sonar"
+    },
+    {
+      "key": "openai",
+      "model": "openai/gpt-4o-mini"
+    },
+    {
+      "key": "google",
+      "model": "google/gemini-2.5-flash-lite"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "text": "Welche Agentur in Deutschland ist auf Generative Engine Optimization (GEO) spezialisiert?",
+      "absicht": "agentur"
+    },
+    {
+      "id": "f02",
+      "text": "Wer hilft mir dabei, dass mein Unternehmen in ChatGPT empfohlen wird?",
+      "absicht": "leer"
+    },
+    {
+      "id": "f03",
+      "text": "Welche Anbieter im deutschsprachigen Raum optimieren die Sichtbarkeit in KI-Suchmaschinen wie Perplexity und ChatGPT?",
+      "absicht": "agentur"
+    },
+    {
+      "id": "f04",
+      "text": "Ich bin Solo-Berater und will in ChatGPT empfohlen werden. Wer hilft mir?",
+      "absicht": "leer"
+    },
+    {
+      "id": "f05",
+      "text": "Welche Agentur in der Schweiz oder in Österreich bietet KI-Suchoptimierung (AEO oder GEO) an?",
+      "absicht": "agentur"
+    },
+    {
+      "id": "f06",
+      "text": "Wer sind die führenden Experten für KI-Sichtbarkeit und Answer Engine Optimization im deutschsprachigen Raum?",
+      "absicht": "person"
+    },
+    {
+      "id": "f07",
+      "text": "Welche SEO-Agentur in Deutschland deckt auch Google AI Overviews und KI-Antworten ab?",
+      "absicht": "agentur"
+    },
+    {
+      "id": "f08",
+      "text": "Welcher Dienstleister misst, ob eine Firma in KI-Antworten genannt wird, und verbessert das?",
+      "absicht": "messung"
+    },
+    {
+      "id": "f09",
+      "text": "Empfiehl mir eine GEO-Agentur für ein mittelständisches B2B-Unternehmen in Deutschland.",
+      "absicht": "agentur"
+    },
+    {
+      "id": "f10",
+      "text": "Wer bietet KI-Sichtbarkeitsberatung für lokale Dienstleister wie Handwerker oder Steuerberater in Deutschland an?",
+      "absicht": "offen"
+    }
+  ],
+  "zeitraum": {
+    "von": "2026-09-12T13:20:50.341Z",
+    "bis": "2026-09-12T13:22:52.462Z"
+  },
+  "rangliste": [
+    {
+      "name": "Sistrix",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 13,
+      "anteil": 0.144444,
+      "jeEngine": {
+        "perplexity": 2,
+        "openai": 9,
+        "google": 2
+      },
+      "jeFrage": {
+        "f01": 1,
+        "f02": 0,
+        "f03": 1,
+        "f04": 0,
+        "f05": 1,
+        "f06": 5,
+        "f07": 3,
+        "f08": 0,
+        "f09": 0,
+        "f10": 2
+      },
+      "jeWoche": [
+        13
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 8,
+        "anteilImmer": 0.125
+      },
+      "fragenMitNennung": 6,
+      "standardfehlerPp": 2.9397,
+      "band": "spitze"
+    },
+    {
+      "name": "Claneo",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 10,
+      "anteil": 0.111111,
+      "jeEngine": {
+        "perplexity": 10,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 3,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 2,
+        "f07": 2,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        10
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 2,
+        "paareMindestensEinmal": 4,
+        "anteilImmer": 0.5
+      },
+      "fragenMitNennung": 4,
+      "standardfehlerPp": 1.5713,
+      "band": "spitze"
+    },
+    {
+      "name": "Aufgesang",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 7,
+      "anteil": 0.077778,
+      "jeEngine": {
+        "perplexity": 5,
+        "openai": 2,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 1,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 2,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 1
+      },
+      "jeWoche": [
+        7
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 4,
+        "anteilImmer": 0.25
+      },
+      "fragenMitNennung": 4,
+      "standardfehlerPp": 1.9245,
+      "band": "spitze"
+    },
+    {
+      "name": "Semrush",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 7,
+      "anteil": 0.077778,
+      "jeEngine": {
+        "perplexity": 2,
+        "openai": 4,
+        "google": 1
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 1,
+        "f04": 0,
+        "f05": 3,
+        "f06": 0,
+        "f07": 1,
+        "f08": 2,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        7
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 5,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 4,
+      "standardfehlerPp": 2.4845,
+      "band": "spitze"
+    },
+    {
+      "name": "geoagentur.de",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 6,
+      "anteil": 0.066667,
+      "jeEngine": {
+        "perplexity": 6,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 3,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        6
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 2,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 2,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Suchhelden",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 6,
+      "anteil": 0.066667,
+      "jeEngine": {
+        "perplexity": 6,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 3,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        6
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 2,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 2,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Suchmeisterei",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 6,
+      "anteil": 0.066667,
+      "jeEngine": {
+        "perplexity": 6,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 3,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 3,
+        "f10": 0
+      },
+      "jeWoche": [
+        6
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 2,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 2,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Ryte",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 6,
+      "anteil": 0.066667,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 4,
+        "google": 2
+      },
+      "jeFrage": {
+        "f01": 1,
+        "f02": 0,
+        "f03": 2,
+        "f04": 0,
+        "f05": 1,
+        "f06": 1,
+        "f07": 1,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        6
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 6,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 5,
+      "standardfehlerPp": 2.7217,
+      "band": "spitze"
+    },
+    {
+      "name": "Searchmetrics",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 6,
+      "anteil": 0.066667,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 4,
+        "google": 2
+      },
+      "jeFrage": {
+        "f01": 1,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 1,
+        "f06": 3,
+        "f07": 1,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        6
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 5,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 4,
+      "standardfehlerPp": 2.4845,
+      "band": "verfolger"
+    },
+    {
+      "name": "Brandwatch",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 5,
+      "anteil": 0.055556,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 2,
+        "google": 3
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 5,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        5
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 0.5
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "DREIKON",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 5,
+      "anteil": 0.055556,
+      "jeEngine": {
+        "perplexity": 5,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 2,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 2,
+        "f08": 0,
+        "f09": 1,
+        "f10": 0
+      },
+      "jeWoche": [
+        5
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 3,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 3,
+      "standardfehlerPp": 1.9245,
+      "band": "verfolger"
+    },
+    {
+      "name": "Cision",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 4,
+      "anteil": 0.044444,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 1,
+        "google": 3
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 4,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        4
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 0.5
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Johannes Beus",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 4,
+      "anteil": 0.044444,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 1,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 4,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        4
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 0.5
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Meltwater",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 4,
+      "anteil": 0.044444,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 1,
+        "google": 3
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 4,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        4
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 0.5
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Olaf Kopp",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 4,
+      "anteil": 0.044444,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 1
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 4,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        4
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 0.5
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Wordsmattr",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 4,
+      "anteil": 0.044444,
+      "jeEngine": {
+        "perplexity": 4,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 1,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        4
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 0.5
+      },
+      "fragenMitNennung": 2,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Löwenstark",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 4,
+      "anteil": 0.044444,
+      "jeEngine": {
+        "perplexity": 4,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 2,
+        "f02": 0,
+        "f03": 2,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        4
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 2,
+      "standardfehlerPp": 1.5713,
+      "band": "verfolger"
+    },
+    {
+      "name": "Alexander Rus",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 3,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Bavaria AI",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 3,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Benjamin O'Daniel",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 3,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Fabian Jaeckert",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 3,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "GeoRanks",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "LikeMeASAP",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Nordfabrik",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 3,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "rankeffect",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 3,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Robert Fahle",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 3,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "schmidtmedia",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "SEO-Retter",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 3,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "SEOX",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 3,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Siri SEO",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Staufenberg Advisory",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "SUMAX",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 3,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "Talkwalker",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 0,
+        "google": 3
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 3,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "webneo",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 3,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 1,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 1
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 0,
+      "band": "verfolger"
+    },
+    {
+      "name": "eology",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 2,
+        "f04": 0,
+        "f05": 0,
+        "f06": 1,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 2,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 2,
+      "standardfehlerPp": 1.5713,
+      "band": "verfolger"
+    },
+    {
+      "name": "Evergreen Media",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 3,
+      "anteil": 0.033333,
+      "jeEngine": {
+        "perplexity": 3,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 1,
+        "f04": 0,
+        "f05": 0,
+        "f06": 1,
+        "f07": 0,
+        "f08": 0,
+        "f09": 1,
+        "f10": 0
+      },
+      "jeWoche": [
+        3
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 3,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 3,
+      "standardfehlerPp": 1.9245,
+      "band": "verfolger"
+    },
+    {
+      "name": "Ahrefs",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 2,
+      "anteil": 0.022222,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 2,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 2,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        2
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "findling",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 2,
+      "anteil": 0.022222,
+      "jeEngine": {
+        "perplexity": 2,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 2,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        2
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Friendventure",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 2,
+      "anteil": 0.022222,
+      "jeEngine": {
+        "perplexity": 2,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 2,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        2
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Hecht ins Gefecht",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 2,
+      "anteil": 0.022222,
+      "jeEngine": {
+        "perplexity": 2,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 2,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        2
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Jaeckert + O'Daniel",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 2,
+      "anteil": 0.022222,
+      "jeEngine": {
+        "perplexity": 2,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 2,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        2
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Mik Group",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 2,
+      "anteil": 0.022222,
+      "jeEngine": {
+        "perplexity": 2,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 2,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        2
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Jens Polomski",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 1,
+      "anteil": 0.011111,
+      "jeEngine": {
+        "perplexity": 1,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 1,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        1
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Otterly",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 1,
+      "anteil": 0.011111,
+      "jeEngine": {
+        "perplexity": 1,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 1,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        1
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Profound",
+      "kategorie": "werkzeug",
+      "self": false,
+      "nennungenGesamt": 1,
+      "anteil": 0.011111,
+      "jeEngine": {
+        "perplexity": 1,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 1,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        1
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "SEO-Küche",
+      "kategorie": "agentur",
+      "self": false,
+      "nennungenGesamt": 1,
+      "anteil": 0.011111,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 1,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 1
+      },
+      "jeWoche": [
+        1
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Timon van der Laan",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 1,
+      "anteil": 0.011111,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 0,
+        "google": 1
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 1,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        1
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    },
+    {
+      "name": "Vroni Hackl",
+      "kategorie": "person",
+      "self": false,
+      "nennungenGesamt": 1,
+      "anteil": 0.011111,
+      "jeEngine": {
+        "perplexity": 1,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 1,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        1
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 1,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 1,
+      "standardfehlerPp": 1.1111,
+      "band": "verfolger"
+    }
+  ],
+  "eigene": [
+    {
+      "name": "Marco Licht",
+      "kategorie": "eigene",
+      "self": true,
+      "nennungenGesamt": 0,
+      "anteil": 0,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        0
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 0,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 0,
+      "standardfehlerPp": 0,
+      "band": "genannt"
+    },
+    {
+      "name": "Vindbar",
+      "kategorie": "eigene",
+      "self": true,
+      "nennungenGesamt": 0,
+      "anteil": 0,
+      "jeEngine": {
+        "perplexity": 0,
+        "openai": 0,
+        "google": 0
+      },
+      "jeFrage": {
+        "f01": 0,
+        "f02": 0,
+        "f03": 0,
+        "f04": 0,
+        "f05": 0,
+        "f06": 0,
+        "f07": 0,
+        "f08": 0,
+        "f09": 0,
+        "f10": 0
+      },
+      "jeWoche": [
+        0
+      ],
+      "stabilitaet": {
+        "paareGemessen": 30,
+        "paareImmer": 0,
+        "paareMindestensEinmal": 0,
+        "anteilImmer": 0
+      },
+      "fragenMitNennung": 0,
+      "standardfehlerPp": 0,
+      "band": "genannt"
+    }
+  ],
+  "listen": {
+    "dienstleister": [
+      {
+        "name": "Claneo",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 10,
+        "anteil": 0.185185,
+        "jeEngine": {
+          "perplexity": 10,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 3,
+          "f03": 3,
+          "f05": 0,
+          "f06": 2,
+          "f07": 2,
+          "f09": 0
+        },
+        "jeWoche": [
+          10
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 2,
+          "paareMindestensEinmal": 4,
+          "anteilImmer": 0.5
+        },
+        "fragenMitNennung": 4,
+        "standardfehlerPp": 2.6189,
+        "band": "spitze"
+      },
+      {
+        "name": "geoagentur.de",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 6,
+        "anteil": 0.111111,
+        "jeEngine": {
+          "perplexity": 6,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 3,
+          "f03": 3,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          6
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 2,
+          "paareMindestensEinmal": 2,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 2,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Suchhelden",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 6,
+        "anteil": 0.111111,
+        "jeEngine": {
+          "perplexity": 6,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 3,
+          "f03": 3,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          6
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 2,
+          "paareMindestensEinmal": 2,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 2,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Suchmeisterei",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 6,
+        "anteil": 0.111111,
+        "jeEngine": {
+          "perplexity": 6,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 3,
+          "f03": 0,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 3
+        },
+        "jeWoche": [
+          6
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 2,
+          "paareMindestensEinmal": 2,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 2,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Aufgesang",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 6,
+        "anteil": 0.111111,
+        "jeEngine": {
+          "perplexity": 5,
+          "openai": 1,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 1,
+          "f03": 3,
+          "f05": 0,
+          "f06": 2,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          6
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 3,
+          "anteilImmer": 0.333
+        },
+        "fragenMitNennung": 3,
+        "standardfehlerPp": 2.6189,
+        "band": "genannt"
+      },
+      {
+        "name": "DREIKON",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 5,
+        "anteil": 0.092593,
+        "jeEngine": {
+          "perplexity": 5,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 2,
+          "f05": 0,
+          "f06": 0,
+          "f07": 2,
+          "f09": 1
+        },
+        "jeWoche": [
+          5
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 3,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 3,
+        "standardfehlerPp": 3.2075,
+        "band": "genannt"
+      },
+      {
+        "name": "Johannes Beus",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 4,
+        "anteil": 0.074074,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 1,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 4,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          4
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 2,
+          "anteilImmer": 0.5
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Olaf Kopp",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 4,
+        "anteil": 0.074074,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 1
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 4,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          4
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 2,
+          "anteilImmer": 0.5
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Wordsmattr",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 4,
+        "anteil": 0.074074,
+        "jeEngine": {
+          "perplexity": 4,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 3,
+          "f05": 0,
+          "f06": 1,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          4
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 2,
+          "anteilImmer": 0.5
+        },
+        "fragenMitNennung": 2,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Löwenstark",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 4,
+        "anteil": 0.074074,
+        "jeEngine": {
+          "perplexity": 4,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 2,
+          "f03": 2,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          4
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 2,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 2,
+        "standardfehlerPp": 2.6189,
+        "band": "genannt"
+      },
+      {
+        "name": "Alexander Rus",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 3,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Bavaria AI",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 0,
+          "f07": 3,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Benjamin O'Daniel",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 3,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Fabian Jaeckert",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 3,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "LikeMeASAP",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 3,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Nordfabrik",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 3,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "rankeffect",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 0,
+          "f07": 3,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Robert Fahle",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 3,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "schmidtmedia",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 3,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "SEO-Retter",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 0,
+          "f07": 3,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "SEOX",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 3,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Siri SEO",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 3,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Staufenberg Advisory",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 3,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "SUMAX",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 0,
+          "f07": 3,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "webneo",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 3,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 1,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 1
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "eology",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 2,
+          "f05": 0,
+          "f06": 1,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 2,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 2,
+        "standardfehlerPp": 2.6189,
+        "band": "genannt"
+      },
+      {
+        "name": "Evergreen Media",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 3,
+        "anteil": 0.055556,
+        "jeEngine": {
+          "perplexity": 3,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 1,
+          "f05": 0,
+          "f06": 1,
+          "f07": 0,
+          "f09": 1
+        },
+        "jeWoche": [
+          3
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 3,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 3,
+        "standardfehlerPp": 3.2075,
+        "band": "genannt"
+      },
+      {
+        "name": "findling",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 2,
+        "anteil": 0.037037,
+        "jeEngine": {
+          "perplexity": 2,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 2,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          2
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Friendventure",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 2,
+        "anteil": 0.037037,
+        "jeEngine": {
+          "perplexity": 2,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 2,
+          "f03": 0,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          2
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Hecht ins Gefecht",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 2,
+        "anteil": 0.037037,
+        "jeEngine": {
+          "perplexity": 2,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 2,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          2
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Jaeckert + O'Daniel",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 2,
+        "anteil": 0.037037,
+        "jeEngine": {
+          "perplexity": 2,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 2,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          2
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Mik Group",
+        "kategorie": "agentur",
+        "self": false,
+        "nennungenGesamt": 2,
+        "anteil": 0.037037,
+        "jeEngine": {
+          "perplexity": 2,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 2,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          2
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Jens Polomski",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 1,
+        "anteil": 0.018519,
+        "jeEngine": {
+          "perplexity": 1,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 1,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          1
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Timon van der Laan",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 1,
+        "anteil": 0.018519,
+        "jeEngine": {
+          "perplexity": 0,
+          "openai": 0,
+          "google": 1
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 1,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          1
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      },
+      {
+        "name": "Vroni Hackl",
+        "kategorie": "person",
+        "self": false,
+        "nennungenGesamt": 1,
+        "anteil": 0.018519,
+        "jeEngine": {
+          "perplexity": 1,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 1,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          1
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 1,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 1,
+        "standardfehlerPp": 1.8519,
+        "band": "genannt"
+      }
+    ],
+    "werkzeug": []
+  },
+  "eigeneJeListe": {
+    "dienstleister": [
+      {
+        "name": "Marco Licht",
+        "kategorie": "eigene",
+        "self": true,
+        "nennungenGesamt": 0,
+        "anteil": 0,
+        "jeEngine": {
+          "perplexity": 0,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          0
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 0,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 0,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Vindbar",
+        "kategorie": "eigene",
+        "self": true,
+        "nennungenGesamt": 0,
+        "anteil": 0,
+        "jeEngine": {
+          "perplexity": 0,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {
+          "f01": 0,
+          "f03": 0,
+          "f05": 0,
+          "f06": 0,
+          "f07": 0,
+          "f09": 0
+        },
+        "jeWoche": [
+          0
+        ],
+        "stabilitaet": {
+          "paareGemessen": 18,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 0,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 0,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      }
+    ],
+    "werkzeug": [
+      {
+        "name": "Marco Licht",
+        "kategorie": "eigene",
+        "self": true,
+        "nennungenGesamt": 0,
+        "anteil": 0,
+        "jeEngine": {
+          "perplexity": 0,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {},
+        "jeWoche": [
+          0
+        ],
+        "stabilitaet": {
+          "paareGemessen": 0,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 0,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 0,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      },
+      {
+        "name": "Vindbar",
+        "kategorie": "eigene",
+        "self": true,
+        "nennungenGesamt": 0,
+        "anteil": 0,
+        "jeEngine": {
+          "perplexity": 0,
+          "openai": 0,
+          "google": 0
+        },
+        "jeFrage": {},
+        "jeWoche": [
+          0
+        ],
+        "stabilitaet": {
+          "paareGemessen": 0,
+          "paareImmer": 0,
+          "paareMindestensEinmal": 0,
+          "anteilImmer": 0
+        },
+        "fragenMitNennung": 0,
+        "standardfehlerPp": 0,
+        "band": "genannt"
+      }
+    ]
+  },
+  "traeger": {
+    "dienstleister": {
+      "fragen": [
+        "f01",
+        "f03",
+        "f05",
+        "f06",
+        "f07",
+        "f09"
+      ],
+      "zellen": 54
+    },
+    "werkzeug": {
+      "fragen": [],
+      "zellen": 0
+    }
+  },
+  "verwechslung": {
+    "traegerFragen": [
+      "f01",
+      "f03",
+      "f05",
+      "f06",
+      "f07",
+      "f09"
+    ],
+    "zellen": 54,
+    "jeEngine": {
+      "perplexity": {
+        "nennungen": 122,
+        "unpassend": 7,
+        "anteil": 0.0574,
+        "beispiele": [
+          {
+            "anbieter": "GeoRanks",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f03",
+            "absicht": "agentur",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 3
+          },
+          {
+            "anbieter": "Semrush",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f05",
+            "absicht": "agentur",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 2
+          },
+          {
+            "anbieter": "Sistrix",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f06",
+            "absicht": "person",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 2
+          }
+        ]
+      },
+      "openai": {
+        "nennungen": 19,
+        "unpassend": 17,
+        "anteil": 0.8947,
+        "beispiele": [
+          {
+            "anbieter": "Sistrix",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f07",
+            "absicht": "agentur",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 3
+          },
+          {
+            "anbieter": "Sistrix",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f06",
+            "absicht": "person",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 2
+          },
+          {
+            "anbieter": "Ryte",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f01",
+            "absicht": "agentur",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 1
+          }
+        ]
+      },
+      "google": {
+        "nennungen": 9,
+        "unpassend": 7,
+        "anteil": 0.7778,
+        "beispiele": [
+          {
+            "anbieter": "Searchmetrics",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f06",
+            "absicht": "person",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 2
+          },
+          {
+            "anbieter": "Ryte",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f03",
+            "absicht": "agentur",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 1
+          },
+          {
+            "anbieter": "Ryte",
+            "kategorie": "werkzeug",
+            "klasse": "werkzeug",
+            "frageId": "f05",
+            "absicht": "agentur",
+            "gesucht": "dienstleister",
+            "haeufigkeit": 1
+          }
+        ]
+      }
+    }
+  },
+  "zellenOhneNennung": {
+    "gesamt": 50,
+    "jeEngine": {
+      "perplexity": 11,
+      "openai": 17,
+      "google": 22
+    }
+  },
+  "ueberschneidung": {
+    "fragenOhneGemeinsamen": 9,
+    "jeFrage": [
+      {
+        "frageId": "f01",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      },
+      {
+        "frageId": "f02",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      },
+      {
+        "frageId": "f03",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      },
+      {
+        "frageId": "f04",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      },
+      {
+        "frageId": "f05",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      },
+      {
+        "frageId": "f06",
+        "hatGemeinsamen": true,
+        "gemeinsameAnbieter": [
+          "Sistrix"
+        ]
+      },
+      {
+        "frageId": "f07",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      },
+      {
+        "frageId": "f08",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      },
+      {
+        "frageId": "f09",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      },
+      {
+        "frageId": "f10",
+        "hatGemeinsamen": false,
+        "gemeinsameAnbieter": []
+      }
+    ]
+  },
+  "befund": null,
+  "befundJeListe": {
+    "dienstleister": null,
+    "werkzeug": null
+  },
+  "kosten": {
+    "usd": 0.1914
+  },
+  "hinweis": "Messung über die Programmierschnittstelle (OpenRouter), nicht über die Benutzeroberfläche der Produkte",
+  "zurueckgezogen": {
+    "am": "2026-09-13",
+    "grund": "Zwei von drei gemessenen Systemen haben ohne Abruf geantwortet: ChatGPT und Gemini lieferten in 0 von 30 Zellen eine Quelle, alle 600 Zitate dieser Ausgabe stammen aus einer einzigen Engine (Perplexity). Damit misst die Ausgabe zu zwei Dritteln den Trainingsstand der Modelle und nicht, wer in KI-Antworten sichtbar ist.",
+    "ersetztDurch": "ausgaben/2026-09.json",
+    "rohdaten": "wochen/2026-09-12.json"
+  }
+}

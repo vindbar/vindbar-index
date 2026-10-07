@@ -1,0 +1,32 @@
+{
+  "title": "vindbar-Index: Nennungen von GEO-Agenturen und KI-SEO-Dienstleistern in KI-Antworten (DACH)",
+  "upload_type": "dataset",
+  "description": "Monatliche Zählung, welche GEO-Agenturen, KI-SEO-Dienstleister und Werkzeuge ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews und Google AI Mode im deutschsprachigen Raum nennen. 20 feste Kauffragen, wöchentlich drei Wiederholungen je Frage und System, jede Antwort im Wortlaut.",
+  "creators": [
+    {
+      "name": "Licht, Marco",
+      "affiliation": "vindbar"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "language": "deu",
+  "keywords": [
+    "GEO-Agentur",
+    "KI-SEO",
+    "KI-Sichtbarkeit",
+    "Generative Engine Optimization",
+    "Answer Engine Optimization",
+    "ChatGPT",
+    "Perplexity",
+    "Gemini",
+    "Google AI Overviews",
+    "DACH"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://vindbar.de/vindbar-index",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

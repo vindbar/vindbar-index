@@ -1,0 +1,126 @@
+{
+  "schema": "vindbar-index-fragensatz/1",
+  "version": "v3",
+  "fragen": [
+    {
+      "id": "f01",
+      "text": "Welche Agentur in Deutschland ist auf Generative Engine Optimization (GEO) spezialisiert?",
+      "absicht": "agentur",
+      "sha256": "88df1aad9ff8f7a2a0d84fed7fd3c3e4b939d7b0e1704d13777ee7a10f312f2d"
+    },
+    {
+      "id": "f03",
+      "text": "Welche Anbieter im deutschsprachigen Raum optimieren die Sichtbarkeit in KI-Suchmaschinen wie Perplexity und ChatGPT?",
+      "absicht": "agentur",
+      "sha256": "6df8adae6c4480a6c0be1efd5c0807647e7858b7187893a65c81c1769f2f2b25"
+    },
+    {
+      "id": "f07",
+      "text": "Welche SEO-Agentur in Deutschland deckt auch Google AI Overviews und KI-Antworten ab?",
+      "absicht": "agentur",
+      "sha256": "20f96abf865094ca3ed6d0a1e94d121b71acca0e364b84a19bd6f1b2f84868e7"
+    },
+    {
+      "id": "f09",
+      "text": "Empfiehl mir eine GEO-Agentur für ein mittelständisches B2B-Unternehmen in Deutschland.",
+      "absicht": "agentur",
+      "sha256": "4caf904c25177155187b17d33518f2198ee9444c25dc6960df1ba4f332e986cb"
+    },
+    {
+      "id": "f11",
+      "text": "Nenne fünf Agenturen aus Deutschland, die Generative Engine Optimization als Dienstleistung anbieten. Keine Software, keine Einzelpersonen.",
+      "absicht": "agentur",
+      "sha256": "5a109dbdc7faa14a4d22f962aa7634ab1caca90b67a8e4a4852d0eed6dc4c92b"
+    },
+    {
+      "id": "f21",
+      "text": "Welche GEO-Agentur ist die beste?",
+      "absicht": "agentur",
+      "sha256": "8947b7125f8877bca515607dcd01c9693ebdfea19122e3463bfc88e7c18d675c"
+    },
+    {
+      "id": "f22",
+      "text": "Welche KI-SEO-Agentur ist die beste?",
+      "absicht": "agentur",
+      "sha256": "5c45867863d43050fe6e4e260213753e96cd3761a68ef79f75af178f37b2534e"
+    },
+    {
+      "id": "f23",
+      "text": "Die besten GEO-Agenturen in Deutschland",
+      "absicht": "agentur",
+      "sha256": "c8ec5e98c3b242769d750a9f6da5631138bf7f812abaeee1dfa9a892eee701c3"
+    },
+    {
+      "id": "f24",
+      "text": "GEO Agentur Schweiz",
+      "absicht": "agentur",
+      "sha256": "c3bb8570d1db94b7f146e658c479376e154841a294b5c0365092110974290429"
+    },
+    {
+      "id": "f25",
+      "text": "GEO Agentur Österreich",
+      "absicht": "agentur",
+      "sha256": "a240878c69b5ec82d6f33b91f54ca0f7c72a060f6e1956c8f2fb9d897112d087"
+    },
+    {
+      "id": "f26",
+      "text": "Beste SEO-Agentur Deutschland",
+      "absicht": "agentur",
+      "sha256": "16b5b31d1484df0ea7e9a8f9498b4fb26c1240536abea4f5af90607a5cbabdab"
+    },
+    {
+      "id": "f27",
+      "text": "Wer macht einen GEO-Audit für meine Website?",
+      "absicht": "agentur",
+      "sha256": "c2a391c5762dc42540f79f4026ec86525cc93f2ec69ddc818b560437505d2297"
+    },
+    {
+      "id": "f14",
+      "text": "Wen würdest Du als Sprecher zum Thema Generative Engine Optimization für eine Konferenz im deutschsprachigen Raum einladen? Nenne Personen.",
+      "absicht": "person",
+      "sha256": "87ebd91a994f7efb27befdb06da007853fa90b9769f537c9b24454b6d11194db"
+    },
+    {
+      "id": "f15",
+      "text": "Welchem Menschen sollte ich auf LinkedIn folgen, wenn ich verstehen will, wie man in KI-Antworten sichtbar wird?",
+      "absicht": "person",
+      "sha256": "ccf8ed29bd2bc0982480b51e13f7a2f1b2f67a364fbca47c57cff4d23af0ed35"
+    },
+    {
+      "id": "f16",
+      "text": "Welcher selbstständige Berater in Deutschland ist darauf spezialisiert, Unternehmen in KI-Antworten sichtbar zu machen? Nenne Personennamen, keine Agenturen.",
+      "absicht": "person",
+      "sha256": "1a1e4a43b4109596305d4274545aff00511b209f9b7872283a2f9b0d5501ea7e"
+    },
+    {
+      "id": "f17",
+      "text": "Mit welcher Software kann ich messen, wie oft meine Marke in ChatGPT, Perplexity und Google AI Overviews genannt wird?",
+      "absicht": "werkzeug",
+      "sha256": "45652275651b1728a39a0be901a2026440fbeb1104c07ef27bb23cf316cd171e"
+    },
+    {
+      "id": "f18",
+      "text": "Welche Werkzeuge für KI-Sichtbarkeit (GEO-Monitoring) kommen aus dem deutschsprachigen Raum?",
+      "absicht": "werkzeug",
+      "sha256": "768d65f663a80abe23bf96d82b12303bc4123fc35ac2f16fbecf272f5b3e2ef2"
+    },
+    {
+      "id": "f28",
+      "text": "Welche KI-SEO-Tools gibt es?",
+      "absicht": "werkzeug",
+      "sha256": "fe0a6c2b25687ddea45d74980eab5c197fcb59c78319704207ed0401085b8d9e"
+    },
+    {
+      "id": "f29",
+      "text": "Beste GEO-Tools 2026",
+      "absicht": "werkzeug",
+      "sha256": "502e8733116fef4047f7915e4b4df38aa41c90197e4ef6ada6b4d85f62d4660d"
+    },
+    {
+      "id": "f20",
+      "text": "Ich will, dass ChatGPT mein Unternehmen empfiehlt. Soll ich eine Agentur beauftragen, ein Tool kaufen oder einen Berater buchen?",
+      "absicht": "offen",
+      "sha256": "f918a3bcc75613151cf6faf6ad462b188eb11dcef82241258ec628de06bc9a63"
+    }
+  ]
+}

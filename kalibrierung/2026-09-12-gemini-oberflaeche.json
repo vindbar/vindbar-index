@@ -1,0 +1,424 @@
+{
+  "schema": "vindbar-index-rohdaten/1",
+  "methodikVersion": "1",
+  "lauf": "kalibrierung",
+  "weg": "oberflaeche",
+  "datum": "2026-09-12",
+  "fragensatz": "v1",
+  "branche": "KI-Sichtbarkeit und KI-Suchoptimierung, DACH",
+  "nErhebung": 1,
+  "erhebung": "Playwright, Chromium mit echtem Fenster (Xvfb), je Frage ein frischer Browser-Kontext ohne Verlauf, ohne Anmeldung, keine Wiederholung",
+  "erzeugtAm": "2026-09-12T19:09:53.703Z",
+  "engines": [
+    {
+      "key": "gemini-ui",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "modellLautOberflaeche": "Flash-Lite"
+    }
+  ],
+  "fragen": [
+    {
+      "id": "f01",
+      "text": "Welche Agentur in Deutschland ist auf Generative Engine Optimization (GEO) spezialisiert?"
+    },
+    {
+      "id": "f02",
+      "text": "Wer hilft mir dabei, dass mein Unternehmen in ChatGPT empfohlen wird?"
+    },
+    {
+      "id": "f03",
+      "text": "Welche Anbieter im deutschsprachigen Raum optimieren die Sichtbarkeit in KI-Suchmaschinen wie Perplexity und ChatGPT?"
+    },
+    {
+      "id": "f04",
+      "text": "Ich bin Solo-Berater und will in ChatGPT empfohlen werden. Wer hilft mir?"
+    },
+    {
+      "id": "f05",
+      "text": "Welche Agentur in der Schweiz oder in Österreich bietet KI-Suchoptimierung (AEO oder GEO) an?"
+    },
+    {
+      "id": "f06",
+      "text": "Wer sind die führenden Experten für KI-Sichtbarkeit und Answer Engine Optimization im deutschsprachigen Raum?"
+    },
+    {
+      "id": "f07",
+      "text": "Welche SEO-Agentur in Deutschland deckt auch Google AI Overviews und KI-Antworten ab?"
+    },
+    {
+      "id": "f08",
+      "text": "Welcher Dienstleister misst, ob eine Firma in KI-Antworten genannt wird, und verbessert das?"
+    },
+    {
+      "id": "f09",
+      "text": "Empfiehl mir eine GEO-Agentur für ein mittelständisches B2B-Unternehmen in Deutschland."
+    },
+    {
+      "id": "f10",
+      "text": "Wer bietet KI-Sichtbarkeitsberatung für lokale Dienstleister wie Handwerker oder Steuerberater in Deutschland an?"
+    }
+  ],
+  "nichtAutomatisierbar": [
+    {
+      "oberflaeche": "perplexity.ai",
+      "engineKey": "perplexity-ui",
+      "grund": "Cloudflare beantwortet jeden Aufruf mit HTTP 403 und der Seite \"Nur einen Moment...\", auch mit echtem Fenster. Nicht umgangen.",
+      "stand": "2026-09-12",
+      "belegBild": "data/index/kalibrierung/belege/perplexity-blockiert.png"
+    },
+    {
+      "oberflaeche": "chatgpt.com",
+      "engineKey": "chatgpt-ui",
+      "grund": "Der erste Aufruf lief als Gast durch, danach schaltete Cloudflare auf die interaktive Haken-Pruefung (\"Bestaetigen Sie, dass Sie ein Mensch sind\"). Die wird nicht geklickt, damit ist die Oberflaeche nicht wiederholbar messbar.",
+      "stand": "2026-09-12",
+      "belegBild": "data/index/kalibrierung/belege/chatgpt-haken-pruefung.png"
+    }
+  ],
+  "zellen": [
+    {
+      "frageId": "f01",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "88df1aad9ff8f7a2a0d84fed7fd3c3e4b939d7b0e1704d13777ee7a10f312f2d",
+      "gestelltAm": "2026-09-12T18:54:09.656Z",
+      "antwort": "In Deutschland haben sich mittlerweile verschiedene Online-Marketing- und SEO-Agenturen auf Generative Engine Optimization (GEO) – teilweise auch als LLMO (Large Language Model Optimization) bezeichnet – spezialisiert. Sie optimieren Webseiten gezielt dafür, in KI-basierten Suchmaschinen und Antworten (wie ChatGPT, Google AI Overviews, Perplexity oder Microsoft Copilot) optimal zitiert und empfohlen zu werden.\n\nZu den bekannten und auf GEO spezialisierten Agenturen in Deutschland gehören unter anderem:  \nwww.sem-deutschland.de\n\nClaneo (Berlin): Eine auf SEO, Content und GEO/LLMO spezialisierte Agentur für Enterprise-Kunden, die sich früh mit der Optimierung für generative KI-Systeme positioniert hat.\n\nAufgesang (Hannover): Gehört zu den frühen Vorreitern für semantisches SEO, Entity-Optimierung und LLMO/GEO in Deutschland.\n\nBeyond Media (Kirchheim am Neckar/Stuttgart): Bietet dedizierte GEO-Strategien zur Optimierung von Markenentitäten in Knowledge Graphen und KI-Suchdiensten an.\n\nSuchhelden (Osnabrück): Eine Full-Service-Agentur mit einer eigenen KI-Abteilung und spezialisierten Ansätzen für die Sichtbarkeit in KI-Suchsystemen.\n\nPeak Ace (Berlin): Internationale Performance-Marketing-Agentur, die GEO/LLMO als eigenständigen Leistungsbereich anbietet.\n\nSuchen Sie nach einer Agentur mit einem bestimmten Branchenfokus oder für eine bestimmte Unternehmensgröße (z. B. KMU oder eCommerce)?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "www.sem-deutschland.de",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f01.png",
+      "wartezeitMs": 12016,
+      "fehler": null
+    },
+    {
+      "frageId": "f02",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "89c8a858a4199b4c33c5f61a74f43c2fe0edcc5378631135826f1e57c2c370f3",
+      "gestelltAm": "2026-09-12T18:54:49.568Z",
+      "antwort": "Damit ein Unternehmen in den Antworten und Empfehlungen von ChatGPT auftaucht, gibt es mittlerweile spezialisierte Ansätze. Die Fachbegriffe dafür lauten GEO (Generative Engine Optimization), LLMO (Large Language Model Optimization) oder auch KI-SEO.  \nDigital Marketing Agentur\n\nHier sind die Akteure und Maßnahmen, die dabei helfen:\n\n1. Wer hilft bei der Umsetzung?\n\nSpezialisierte Agenturen: Immer mehr Online-Marketing-, SEO- und Web-Agenturen bieten gezielte Dienstleistungen an, um Marken in KI-Suchergebnissen und Chat-Empfehlungen (von ChatGPT, Google Gemini, Perplexity etc.) zu platzieren.  \nDigital Marketing Agentur\n+ 1\n\nSEO- und Content-Experten: Klassische Suchmaschinenoptimierer erweitern ihr Wissen zunehmend auf generative Sprachmodelle, da die zugrundeliegenden Prinzipien stark mit gutem, auffindbarem Online-Content verknüpft sind.\n\n2. Worauf kommt es bei der Optimierung an?\n\nKI-Modelle wie ChatGPT empfehlen Unternehmen nicht durch Zufall oder Bezahlung, sondern basierend auf den Daten, die sie im Internet über eine Marke finden. Wichtige Stellschrauben sind:\n\nStrukturierte Website-Inhalte: Die KI muss verstehen, was dein Unternehmen anbietet. Dafür sind klare, faktenbasierte Leistungsbeschreibungen, FAQs und strukturierte Daten (Schema.org) wichtig. Technische Blockaden (wie das Aussperren von KI-Crawlern in der robots.txt) müssen vermieden werden.  \nlass machen\n+ 1\n\nDigitale Präsenz und Erwähnungen (PR): ChatGPT zieht Informationen nicht nur von der eigenen Website, sondern aus dem gesamten Netz. Artikel in Fachmedien, Einträge auf Bewertungsportalen, Präsenz in Branchenverzeichnissen und Diskussionen in Communities (z. B. Reddit) dienen der KI als Vertrauensnachweis.  \nvisuellverstehen\n\nEchte Belege und Case Studies: Statt reiner Werbeversprechen („Wir sind die Besten“) sucht die KI nach konkreten Belegen, Projektbeispielen (Cases) und messbaren Ergebnissen, die untermauern, wofür das Unternehmen steht.\n\nMöchtest du wissen, wie du die Sichtbarkeit deines Unternehmens für bestimmte Suchanfragen in ChatGPT aktuell selbst überprüfen kannst?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "Digital Marketing Agentur",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "lass machen",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "visuellverstehen",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f02.png",
+      "wartezeitMs": 12015,
+      "fehler": null
+    },
+    {
+      "frageId": "f03",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "6df8adae6c4480a6c0be1efd5c0807647e7858b7187893a65c81c1769f2f2b25",
+      "gestelltAm": "2026-09-12T18:55:28.960Z",
+      "antwort": "Im deutschsprachigen Raum hat sich für die Optimierung der Sichtbarkeit in KI-basierten Systemen wie ChatGPT, Perplexity und Google AI Overviews der Begriff GEO (Generative Engine Optimization) oder auch LLMO (Large Language Model Optimization) etabliert.  \nHi Social GmbH\n\nDa sich dieser Markt stark dynamisiert, bieten mittlerweile sowohl spezialisierte Agenturen als auch etablierte SEO- und Online-Marketing-Dienstleister entsprechende Services an.  \nSuchhelden GmbH\n\nBekannte Anbieter und Agenturen für KI-Sichtbarkeit  \nAgenturtipp.de\n\nZu den im DACH-Raum aktiven Anbietern, die gezielt Audits, Content-Anpassungen und Strategien für KI-Suchmaschinen anbieten, gehören unter anderem:\n\nSpezialisierte Agenturen & Dienstleister: Unternehmen wie Invictus Lead Generation, Suchhelden, Aufgesang oder Netzbekannt haben feste Leistungsbereiche und Audits rund um GEO, Entity-Optimierung und das Tracking von KI-Erwähnungen etabliert.  \nAgenturtipp.de\n\nKlassische SEO-Agenturen mit KI-Fokus: Viele etablierte SEO- und Digitalagenturen (wie Evergreen Media, Claneo oder Suchmeisterei) haben ihr Portfolio erweitert und bieten die Verknüpfung von traditioneller Suchmaschinenoptimierung und KI-Suche an.  \nHi Social GmbH\n\nWas beinhalten diese Optimierungsmaßnahmen?\n\nAnders als bei der klassischen Google-Suche (wo es primär um Keywords und Backlinks geht) gewichten KI-Suchmaschinen andere Faktoren. Die Anbieter setzen daher meist auf folgende Hebel:  \nHi Social GmbH\n\nEntity-Optimierung: KI-Modelle müssen verstehen, wer hinter einer Marke steht. Es wird sichergestellt, dass das Unternehmen im semantischen Wissensnetz der KI klar als Expertedefiniert ist.  \nHi Social GmbH\n\nStrukturierte Daten & Technische Standards: Implementierung von präzisen Schema-Markups und speziellen Steuerungsdateien (wie optimierten llms.txt-Dateien), damit Crawler von ChatGPT & Co. Inhalte fehlerfrei auslesen können.\n\nZitierfähigkeit (Citations & Mentions): Da Perplexity und ChatGPT Antworten aus Quellen synthetisieren, zielen die Strategien darauf ab, die Marke in relevanten Branchenverzeichnissen, Fachmedien und Foren zu platzieren, auf die sich die KIs stützen.  \nAgenturtipp.de\n\nContent-Aufbereitung: Inhalte werden so umstrukturiert, dass sie präzise, faktenbasiert und in Formaten (wie klaren FAQs oder Tabellen) vorliegen, die Sprachmodelle bevorzugt in ihre Antworten einbauen.  \nEvergreen Media\n+ 1\n\nWelche konkrete Branche oder Art von Website möchten Sie denn für KI-Suchmaschinen optimieren?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "Hi Social GmbH",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Suchhelden GmbH",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Agenturtipp.de",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Evergreen Media",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f03.png",
+      "wartezeitMs": 12013,
+      "fehler": null
+    },
+    {
+      "frageId": "f04",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "9a37ee09b5bcc967b64941612ddbff4b57830a3408cf9f9966ac6dc84d5e2dba",
+      "gestelltAm": "2026-09-12T18:56:09.637Z",
+      "antwort": "Um als Solo-Berater in ChatGPT (oder anderen KI-Modellen wie Microsoft Copilot oder Google Gemini) empfohlen zu werden, geht es heute um eine gezielte Disziplin: GEO (Generative Engine Optimization) oder auch LLMO (Large Language Model Optimization).  \nclicks digital\n\nDa du als Solo-Berater agierst, brauchst du keine riesigen Media-Budgets, sondern eine extrem spitze, digitale Signifikanz. Wer dir dabei helfen kann und wie das Prinzip funktioniert, siehst du hier im Überblick:  \nclicks digital\n\nWer hilft dir dabei?\n\nSpezialisierte GEO- & KI-SEO-Agenturen: Immer mehr klassische SEO-Agenturen und junge Spezialdienstleister (oft unter Begriffen wie „KI-SEO-Agentur“ oder „GEO-Agentur“ zu finden) haben sich darauf spezialisiert, Marken und Experten in Sprachmodellen sichtbar zu machen.  \nclicks digital\n+ 1\n\nDigital PR- und Brand-Strategen: Da KIs das Web nach Vertrauen und Erwähnungen absuchen, helfen Agenturen oder Consultants, die auf Digitale PR spezialisiert sind, deine Expertise auf externen Plattformen zu platzieren.\n\nDu selbst (mit der richtigen Strategie): Mit überschaubarem Aufwand kannst du als Solo-Berater viele Grundlagen auch im Alleingang legen, da KIs vor allem klare, strukturierte Fakten lieben.  \nContentbär\n\nWorauf kommt es an, damit ChatGPT dich empfiehlt?\n\nKIs funktionieren anders als klassische Google-Suchalgorithmen. Sie suchen nicht nur nach Keywords, sondern bewerten Kontext, Autorität und Konsistenz. Folgende Hebel sind entscheidend:  \nContentbär\n\nDigitale Fußabdrücke & Entitäten-Aufbau: ChatGPT muss „wissen“, wer du bist. Das gelingt durch eine glasklare Positionierung auf deiner Website, ein lückenloses LinkedIn-Profil, Fachartikel, Podcast-Gastauftritte oder Erwähnungen in Branchenportalen. Wenn dein Name im Netz im exakt selben Fachkontext auftaucht, speichert die KI das ab.\n\nStrukturierte Daten (Schema.org): Deine Website sollte technisch so aufgebaut sein, dass Web-Crawler und KI-Bots (wie OAI-SearchBot) deine Angebote, deine Vita und deine Case Studies sofort maschinenlesbar erfassen können.  \nModulist\n\nContent mit „Information Gain“: Veröffentliche keine generischen Ratgebertexte, sondern fundierte Fachbeiträge, konkrete Fallstudien und präzise FAQs. KIs greifen bei Empfehlungen gerne auf Webseiten zurück, die komplexe Fragen direkt, logisch und mit klaren Definitionen oder Tabellen beantworten.  \nModulist\n\nPräsenz in von KIs gelesenen Quellen: ChatGPT nutzt das Live-Web (u. a. über Bing/ChatGPT Search) und trainiert mit riesigen Textdatenbanken. Wer auf Plattformen wie Wikipedia, Fachmedien, Reddit oder großen Branchenverzeichnissen positiv zitiert wird, taucht auch in den Antworten auf.\n\nNächster Schritt\n\nSuchst du nach einer Agentur, die das technologisch für dich aufsetzt, oder möchtest du erst einmal wissen, ob ChatGPT deinen Namen in deiner Nische heute schon kennt?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "clicks digital",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Contentbär",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Modulist",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f04.png",
+      "wartezeitMs": 15018,
+      "fehler": null
+    },
+    {
+      "frageId": "f05",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "a99828c9c5469ecb204cb3601968015321cc40a3b9b6e9ce1a383a85eac90f72",
+      "gestelltAm": "2026-09-12T18:56:52.497Z",
+      "antwort": "Immer mehr spezialisierte Online-Marketing- und SEO-Agenturen in der Schweiz und in Österreich bieten gezielt AEO (Answer Engine Optimization) und GEO (Generative Engine Optimization) an, um Marken in KI-Systemen wie ChatGPT, Google Gemini oder Perplexity sichtbar zu machen.  \ntraffic3\n\nHier ist eine Übersicht von Agenturen in der DACH-Region, die solche Leistungen im Portfolio haben:\n\nAgenturen mit Fokus auf die Schweiz & DACH  \ntraffic3\n\ndreifive (Zürich, Wien & Konstanz): Eine etablierte Digitalagentur, die an Standorten in der Schweiz und Österreich aktiv ist. Sie bietet strukturierte Lösungen im Bereich GEO an, um Marken in modernen KI-Such- und Antwortsystemen zu positionieren.  \ndreifive\n+ 1\n\nmmb media agentur ag (Schweiz): Hat sich explizit als GEO-Agentur positioniert. Sie unterstützen Unternehmen dabei, ihre Sichtbarkeit in Large Language Models (LLMs) und bei Googles AI Overviews (SGE) durch Analysen, technisches GEO und Content-Chucking zu stärken.  \nmmb media agentur\n+ 1\n\nfrenz! Digital Marketing GmbH (Schweiz): Bietet dedizierte AEO/GEO-Analysen und Audits an, um die Markenpräsenz, das Entitäten-Verständnis und die Zitationshäufigkeit in KI-Systemen zu überprüfen.  \nfrenz! Digital Marketing GmbH\n+ 1\n\nSumasearch (Schweiz): Eine auf Suchmaschinenmarketing spezialisierte Agentur, die klassisches SEO mit GEO verknüpft, um Marken direkt in die Empfehlungen von KI-Assistenten zu bringen.  \nwww.sumasearch.ch\n+ 1\n\nAB3 Creative Collective (Schweiz): Bietet GEO-Dienstleistungen (inklusive ChatGPT-Shopping-Optimierung für E-Commerce) an, um Inhalte und Produktdaten für generative KI-Plattformen aufzubereiten.  \nAB3\n+ 1\n\nLean & Sharp (Zürich): Verbindet klassische SEO-Ansätze mit modernen AEO- und GEO-Strategien, um Webseiten für das semantische Verständnis von Suchmaschinen und KIs fit zu machen.  \nLean & Sharp\n\nWorauf Sie bei der Auswahl achten sollten:\n\nDa AEO und GEO im Vergleich zum klassischen SEO noch relativ dynamische Disziplinen sind, arbeiten viele dieser Agenturen stark datengetrieben. Sie analysieren, wie Sprachmodelle Ihre Marke aktuell wahrnehmen (Brand Mentions und Entitäten), optimieren technische Datenstrukturen (wie Schema-Markups) und bereiten Inhalte so auf, dass sie von KI-Crawlern als vertrauenswürdige Quelle zitiert werden.  \nwww.sumasearch.ch\n\nPlanen Sie, eine solche Optimierung für ein bestimmtes Projekt in der Schweiz oder in Österreich umzusetzen?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "traffic3",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "dreifive",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "mmb media agentur",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "frenz! Digital Marketing GmbH",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "www.sumasearch.ch",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "AB3",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Lean & Sharp",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f05.png",
+      "wartezeitMs": 12014,
+      "fehler": null
+    },
+    {
+      "frageId": "f06",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "af1c67784e926bf4b24e26d5c7ad0fb03b9a8994075ebfffb749200ca1f28775",
+      "gestelltAm": "2026-09-12T18:57:32.580Z",
+      "antwort": "Führende Experten für KI-Sichtbarkeit und AEO im DACH-Raum\n\nDie Suchmaschinenoptimierung hat sich grundlegend gewandelt. Im Zuge von Answer Engine Optimization (AEO) und Generative Engine Optimization (GEO) haben sich im deutschsprachigen Raum einige profilierte Vordenker, Analysten und Agentur-Experten etabliert:\n\nBekannte Vordenker & Strategen\n\nOlaf Kopp: Gilt als einer der profiliertesten Strategen für semantische Netze, Entitäten und Markenautorität in KI-Systemen. Er verbindet klassische SEO geschickt mit moderner KI-Sichtbarkeit.  \nExistenzgründer und Jungunternehmer\n+ 1\n\nMalte Landwehr: Ist als datengetriebener Experte und Analyst (u. a. bei Peec AI) ein bekannter Thought Leader im Bereich der plattformübergreifenden AI Visibility.  \nExistenzgründer und Jungunternehmer\n\nPraxis-Experten für GEO und Content-Optimierung\n\nDavid Konitzny: Fokussiert sich stark auf Entitäten, Prompt-Strukturen und den sogenannten „Grounding-Prozess“ von Large Language Models (LLMs).  \nExistenzgründer und Jungunternehmer\n+ 1\n\nMonika Weber: Konzentriert sich als Content-Strategin praxisnah auf die Erstellung von KI-kompatiblen Inhalten und systematisierte Textstrukturen für die Maschinenlesbarkeit.  \nExistenzgründer und Jungunternehmer\n\nCarmen Martins: Beschäftigt sich intensiv mit der Sichtbarkeit von Marken, Produkten und Softwarelösungen in generativen Antwortsystemen und Marktvergleichen.  \nExistenzgründer und Jungunternehmer\n+ 1\n\nSpezialisierte Agenturen & Umsetzer\n\nPatrick Tomforde (performanceLiebe): Gehört zu den frühen Agentur-Vertretern, die AEO-Strategien (Fokus auf Google AI Overviews, ChatGPT und Featured Snippets) operativ für Unternehmen umsetzen.  \nperformanceLiebe\n\nHintergrund: Bei AEO und GEO geht es längst nicht mehr nur um klassische Keywords, sondern darum, ob KI-Systeme eine Marke als vertrauenswürdige und zitierfähige Quelle einstufen.  \nmöller horcher\n\nMöchtest du wissen, mit welchen kostenlosen Tools du die aktuelle KI-Sichtbarkeit einer Website testen kannst?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "Existenzgründer und Jungunternehmer",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "performanceLiebe",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "möller horcher",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f06.png",
+      "wartezeitMs": 15017,
+      "fehler": null
+    },
+    {
+      "frageId": "f07",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "20f96abf865094ca3ed6d0a1e94d121b71acca0e364b84a19bd6f1b2f84868e7",
+      "gestelltAm": "2026-09-12T18:58:16.263Z",
+      "antwort": "Das Thema KI-SEO bzw. die Optimierung für Google AI Overviews (oft auch unter dem Begriff Generative Engine Optimization – GEO zusammengefasst) wird von immer mehr spezialisierten Online-Marketing- und SEO-Agenturen in Deutschland angeboten.  \nSEOrello\n+ 1\n\nHier sind einige Agenturen im deutschsprachigen Raum, die diesen Bereich explizit in ihren Leistungsportfolio aufgenommen haben und entsprechende Strategien (wie z. B. Zitierfähigkeit in KI-Antworten, E-E-A-T-Optimierung und LLM-Visibility) anbieten:\n\nRheinwunder (mit Fokus auf KI-SEO und GEO-Beratung für Google AI Overviews und ChatGPT)  \nRheinwunder\n+ 1\n\nSEOrello (verbindet langjährige SEO-Praxis mit der Optimierung für Google AI Overviews und den AI Mode)  \nSEOrello\n+ 1\n\nTRYSEO (bietet spezialisierte AI-Overview-Potenzialanalysen und laufende Betreuungen für die KI-Suche an)  \ntryseo\n\nPerformanceLiebe (fokussiert sich u. a. auf AI Overviews Optimierung, AEO / Answer Engine Optimization und Offpage-Signale für KI-Modelle)  \nperformanceLiebe\n\nAmbitive und Lunapark (analysieren und beraten ebenfalls gezielt zur Veränderung der Suchergebnisse durch Googles KI-Zusammenfassungen)  \nAmbitive Digitalagentur\n\nDa sich dieser Bereich (GEO / AI SEO) rasant entwickelt, integrieren inzwischen auch viele klassische mittelständische SEO-Agenturen diese Leistungen fest in ihre herkömmlichen Suchmaschinenoptimierungs-Kampagnen.  \nSEOrello\n\nSuchst du nach einer Agentur mit einem bestimmten Branchenfokus oder einer Agentur in deiner direkten Region?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "SEOrello",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Rheinwunder",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "tryseo",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "performanceLiebe",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Ambitive Digitalagentur",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f07.png",
+      "wartezeitMs": 12013,
+      "fehler": null
+    },
+    {
+      "frageId": "f08",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "dbc42eeadd6a676658e369e380a69606f5e2629c4516aba88d9e8fd9ac120a55",
+      "gestelltAm": "2026-09-12T18:58:56.101Z",
+      "antwort": "Das Messen und Verbessern der Sichtbarkeit einer Marke in KI-Antworten (wie ChatGPT, Gemini, Claude oder Perplexity) nennt sich im Fachjargon GEO (Generative Engine Optimization) oder AEO (Answer Engine Optimization).\n\nDafür gibt es mittlerweile spezialisierte Software-Tools sowie Agenturen und Marketing-Dienstleister:  \nTBN Public Relations GmbH\n\n1. Spezialisierte Software-Tools (zum Messen)\n\nDiese Plattformen analysieren, wie oft, in welchem Kontext und im Vergleich zu welchen Wettbewerbern eine Firma von KI-Modellen genannt wird:  \nTBN Public Relations GmbH\n\nSistrix (AI/Chatbots Beta): Bietet einen speziellen AI-Sichtbarkeitsindex und vergleicht Prompt-Daten.  \nThe Boutique Agency\n+ 1\n\nAhrefs (Brand Radar): Analysiert den sogenannten „AI Share of Voice“ in verschiedenen Sprachmodellen.  \nThe Boutique Agency\n\nOtterly.ai: Überwacht gezielt Brand Mentions, Zitationen und liefert technische „AI Readiness Audits“.  \nThe Boutique Agency\n\nZiptie.dev / Rankshift.ai: Spezifische Dashboards für das Monitoring von Erwähnungen in KI-Antworten.\n\n2. Agenturen und Beratungen (zum Messen & Verbessern)\n\nViele klassische SEO-, Content- und PR-Agenturen sowie spezialisierte Dienstleister bieten mittlerweile Audits und Optimierungsstrategien an. Sie helfen Unternehmen dabei, nicht nur den Ist-Zustand zu messen, sondern die Inhalte so aufzubereiten, dass KI-Systeme sie als vertrauenswürdige Quelle erkennen und zitieren (z. B. durch strukturierte Daten, PR-Maßnahmen in KI-trainierten Medien oder optimierte Website-Architekturen).\n\nMöchtest du wissen, mit welchen konkreten Schritten Unternehmen ihre Sichtbarkeit in KI-Modellen verbessern können?\nJa",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "TBN Public Relations GmbH",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "The Boutique Agency",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f08.png",
+      "wartezeitMs": 12016,
+      "fehler": null
+    },
+    {
+      "frageId": "f09",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "4caf904c25177155187b17d33518f2198ee9444c25dc6960df1ba4f332e986cb",
+      "gestelltAm": "2026-09-12T18:59:36.181Z",
+      "antwort": "Für ein mittelständisches B2B-Unternehmen, das seine Sichtbarkeit in KI-basierten Antwortsystemen (wie ChatGPT, Perplexity oder Google AI Overviews) gezielt ausbauen möchte, gibt es im deutschsprachigen Raum mittlerweile spezialisierte Agenturen.\n\nDa Generative Engine Optimization (GEO) – oft auch als LLMO (Large Language Model Optimization) oder GAIO bezeichnet – stark auf eine Kombination aus technischer Maschinenlesbarkeit, starker Content-Struktur und digitaler PR (externen Zitationen) setzt, haben sich vor allem etablierte B2B-Content- und SEO-Agenturen in diesem Bereich positioniert.\n\nHier sind empfehlenswerte Agentur-Ansprechpartner in Deutschland, die diesen Ansatz für den Mittelstand ganzheitlich abbilden:\n\nEmpfohlene Agenturen für B2B-GEO  \nnetgrade\n\nEPOS B2B Marketing (epos-marketing.com)\n\nFokus: Verbindet Content Marketing, PR und Thought Leadership gezielt zu einer GEO-Strategie.  \nmöller horcher\n\nWarum für den Mittelstand geeignet: Der Ansatz setzt genau dort an, wo B2B-Kunden nach Lösungen suchen. Sie optimieren nicht nur die Website-Struktur für KI-Crawler, sondern nutzen gezielt Fachpressearbeit (Earned Media) und Expertenpositionierung (C-Level/Social Media), da KIs „wissen“ wollen, was Externe über ein Unternehmen schreiben.  \nEPOS Marketing\n\nPARK 7 (park-sieben.com)  \nPark Sieben\n\nFokus: B2B-Allbound-Services, Content-Marketing und technisches SEO.  \nmöller horcher\n+ 1\n\nWarum für den Mittelstand geeignet: PARK 7 hat ein dediziertes GEO-Framework für B2B-Märkte entwickelt. Der Fokus liegt auf Buyer-Personas, der Analyse von typischen KI-Prompts, fundierten GEO-Audits sowie der engen Verzahnung von klassischer SEO und maschinenlesbaren Inhalten.  \nEPOS Marketing\n+ 1\n\nnetgrade (netgrade.de)\n\nFokus: Ganzheitliche B2B-Digitalagentur für SEO, Web Development und Performance Marketing.  \nmöller horcher\n+ 1\n\nWarum für den Mittelstand geeignet: Netgrade betrachtet GEO als logische Weiterentwicklung des klassischen Online-Marketings. Sie bieten strukturierte GEO-Audits an, analysieren den Status quo im Wettbewerbsvergleich und machen die Sichtbarkeit in KI-Modellen über Dashboards messbar.  \nnetgrade\n\nSNK (snk.de)  \nschoene neue kinder\n\nFokus: B2B-Markenentwicklung, UX-Design und GAIO/LLMO (Generative AI Optimization).  \nmöller horcher\n\nWarum für den Mittelstand geeignet: SNK verknüpft Marken-Storytelling mit technischem GEO. Ihr Ansatz basiert darauf, dass KIs Marken als „Entitäten“ begreifen – Unternehmen ohne klares, konsistentes digitales Narrativ werden im KI-Rauschen demnach schnell übersehen.  \nschoene neue kinder\n\nWorauf Sie bei der Auswahl achten sollten:\n\nKeine isolierte Technik: Gute GEO-Agenturen optimieren nicht nur den Quellcode oder Schema-Markup, sondern verstehen, dass KIs vor allem über externe Quellen, Fachartikel und Experten-Zitate (E-E-A-T-Kriterien) validieren, ob ein Mittelständler eine Koryphäe auf seinem Gebiet ist.  \nEPOS Marketing\n\nBranchenverständnis: Im B2B-Bereich (oft erklärungsbedürftige Industrieprodukte oder Software) muss die Agentur in der Lage sein, komplexe Fachinhalte zielgruppengerecht und zugleich „ki-verdaulich“ aufzubereiten.  \nPark Sieben\n\nWelche spezifische Branche oder welches Produktportfolio deckt Ihr Unternehmen ab, damit wir den Fokus noch genauer eingrenzen können?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "netgrade",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "möller horcher",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "EPOS Marketing",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "Park Sieben",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "schoene neue kinder",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f09.png",
+      "wartezeitMs": 15021,
+      "fehler": null
+    },
+    {
+      "frageId": "f10",
+      "engine": "gemini-ui",
+      "model": "Flash-Lite",
+      "lauf": 1,
+      "weg": "oberflaeche",
+      "oberflaeche": "gemini.google.com, Gast ohne Anmeldung",
+      "promptHash": "a60caf1ce0c0532a69e5f3ac751159688e6518ef152da6b6bb2b5854598d4207",
+      "gestelltAm": "2026-09-12T19:00:19.357Z",
+      "antwort": "Das Thema KI-Sichtbarkeit (oft auch als Generative Engine Optimization oder GEO bezeichnet) gewinnt für lokale Dienstleister wie Handwerker oder Steuerberater rasant an Bedeutung. Wenn potenzielle Kunden heutzutage nicht mehr nur klassisch bei Google suchen, sondern Empfehlungen direkt von KI-Systemen wie ChatGPT, Perplexity, Gemini oder Google AI Overviews einholen, müssen Betriebe dort namentlich genannt und empfohlen werden.  \nHelmut Rabenlehner\n\nHier ist eine Übersicht, wer solche Beratungs- und Optimierungsleistungen in Deutschland anbietet und worauf du achten solltest:\n\n1. Spezialisierte Agenturen für Handwerker & lokale Betriebe\n\nViele spezialisierte Online-Marketing- und SEO-Agenturen haben ihr Portfolio erweitert und bieten gezielte Strategien an, um lokale Handwerksbetriebe sowohl in klassischen Google-Ergebnissen (Local SEO) als auch in KI-Antworten nach vorne zu bringen:\n\nSpezialisierte SEO- & GEO-Agenturen (z. B. SichtbarerWerden u.a.): Solche Agenturen kombinieren klassische lokale Optimierung (Google Business Profile, Bewertungen) mit modernen KI-Sichtbarkeits-Strategien. Sie analysieren, ob und wie oft ein Betrieb von Sprachmodellen oder KI-Suchen (wie ChatGPT) für bestimmte Dienstleistungen in der Region empfohlen wird.  \nSichtbarerWerden\n+ 1\n\nBranchenspezifische Web- und IT-Berater (z. B. Agentur Schlagschnur oder Rabenlehner): Es gibt Dienstleister, die sich explizit auf die Digitalisierung und Online-Präsenz von Handwerksbetrieben konzentrieren. Sie prüfen die digitale Infrastruktur (Website-Struktur, strukturierte Daten/Schema.org, Leistungsbeschreibungen), damit KI-Crawl-Systeme den Betrieb fehlerfrei einordnen können.  \nHelmut Rabenlehner\n\nKI-Automatisierungs-Anbieter (z. B. HandwerkBot): Manche Agenturen fokussieren sich stärker auf die operative KI-Nutzung vor Ort – etwa KI-Sprachassistenten und Chatbots, die den Kundenservice oder die Notfall-Erreichbarkeit rund um die Uhr regeln.  \nwww.handwerkbot.de\n\n2. Spezialisierte Agenturen für Steuerberater & Kanzleien  \nSEO Agentur Nürnberg\n\nFür Steuerberater gelten strenge berufsrechtliche Regeln und ein starker Fokus auf Vertrauen, weshalb hier spezialisierte Anbieter am Markt sind:\n\nKanzlei-Marketing-Agenturen (z. B. SEOFX, HEEY u.a.): Diese Agenturen sind auf Steuerberater und Wirtschaftsprüfer spezialisiert. Sie optimieren Kanzlei-Websites gezielt so, dass spezialisierte Suchanfragen (z. B. „Steuerberater für GmbHs“ oder „Lohnbuchhaltung für Handwerker“) bedient werden.  \nSEO Agentur Nürnberg\n\nDer KI-Fokus für Kanzleien: Da KI-Systeme bei Empfehlungen stark auf Fachautorität, klare Leistungsseiten und echte Kundenbewertungen achten, helfen diese Agenturen dabei, die Website-Struktur entsprechend für moderne Such-Bots aufzubereiten.  \nSEO Agentur Nürnberg\n\nWorauf sollten lokale Dienstleister bei der Auswahl achten?\n\nWenn du oder ein Betrieb eine solche Beratung suchen, sind folgende Punkte entscheidend:\n\nLokaler Bezug (Local SEO + KI): Eine reine allgemeine KI-Beratung bringt wenig. Der Dienstleister muss verstehen, wie lokale Daten (Standort, Einzugsgebiet, Google Unternehmensprofil, Brancheneinträge) mit KI-Algorithmen zusammenspielen.\n\nTechnische Fundierung (Strukturierte Daten): KI-Modelle „lesen“ Websites anders als Menschen. Gute Berater optimieren sogenannte Schema.org-Daten, damit Google, ChatGPT & Co. sofort wissen: „Das ist ein Sanitärbetrieb in Dortmund“ oder „Das ist eine Steuerkanzlei für Existenzgründer.“  \nHelmut Rabenlehner\n\nPraxisnahe Referenzen: Frage gezielt nach Beispielen aus der jeweiligen Branche (Handwerk oder Freie Berufe), da die Zielgruppenansprache hier völlig unterschiedlich funktioniert.\n\nSuchst du nach einer Beratung für ein ganz konkretes Gewerk oder eine bestimmte Region in Deutschland, um den passenden Ansprechpartner zu finden?",
+      "zitate": [
+        {
+          "url": null,
+          "titel": "Helmut Rabenlehner",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "SichtbarerWerden",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "www.handwerkbot.de",
+          "form": "nur Name, keine Adresse"
+        },
+        {
+          "url": null,
+          "titel": "SEO Agentur Nürnberg",
+          "form": "nur Name, keine Adresse"
+        }
+      ],
+      "screenshot": "data/index/kalibrierung/belege/gemini-ui-f10.png",
+      "wartezeitMs": 15021,
+      "fehler": null
+    }
+  ]
+}

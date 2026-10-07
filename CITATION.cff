@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Wer diese Daten nutzt, nennt bitte die Quelle."
+type: dataset
+title: "vindbar-Index: Nennungen von GEO-Agenturen und KI-SEO-Dienstleistern in KI-Antworten (DACH)"
+abstract: "Monatliche Zählung, welche GEO-Agenturen, KI-SEO-Dienstleister und Werkzeuge ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews und Google AI Mode im deutschsprachigen Raum nennen. 20 feste Kauffragen, wöchentlich drei Wiederholungen je Frage und System, jede Antwort im Wortlaut."
+authors:
+  - family-names: Licht
+    given-names: Marco
+    affiliation: vindbar
+    email: marco@vindbar.de
+    website: "https://vindbar.de/marco-licht"
+url: "https://vindbar.de/vindbar-index"
+repository: "https://github.com/vindbar/vindbar-index"
+license: CC-BY-4.0
+version: "2026-09"
+date-released: "2026-10-01"
+keywords:
+  - "GEO-Agentur"
+  - "KI-SEO"
+  - "KI-Sichtbarkeit"
+  - "Generative Engine Optimization"
+  - "Answer Engine Optimization"
+  - "ChatGPT"
+  - "Perplexity"
+  - "Gemini"
+  - "Google AI Overviews"
+  - "DACH"
