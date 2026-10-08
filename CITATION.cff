@@ -11,6 +11,7 @@ authors:
     website: "https://vindbar.de/marco-licht"
 url: "https://vindbar.de/vindbar-index"
 repository: "https://github.com/vindbar/vindbar-index"
+doi: 10.5281/zenodo.23237772
 license: CC-BY-4.0
 version: "2026-09"
 date-released: "2026-10-01"

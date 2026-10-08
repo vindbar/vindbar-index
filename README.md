@@ -42,6 +42,12 @@ Ausgabe 1: Erstmessung vom 12.09.2026 zurückgezogen und mit Methodikversion 2 n
 
 > Licht, Marco (2026): vindbar-Index, Ausgabe 1, September 2026. vindbar. https://vindbar.de/vindbar-index/2026-09
 
+DOI der Reihe (gilt für alle Ausgaben und zeigt immer auf die jüngste): [10.5281/zenodo.23237772](https://doi.org/10.5281/zenodo.23237772)
+
+DOI je Ausgabe: 2026-09 [10.5281/zenodo.23237773](https://doi.org/10.5281/zenodo.23237773)
+
+Archiviert bei [Zenodo](https://zenodo.org/doi/10.5281/zenodo.23237772), jede Ausgabe als eigene Version.
+
 Die Angaben für Literaturverwaltungen stehen in `CITATION.cff`.
 
 ## Lizenz
